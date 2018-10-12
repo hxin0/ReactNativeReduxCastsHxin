@@ -9,7 +9,6 @@ const Header = (props) => {
   return (
     <View style={viewStyle}>
       <Text style={textStyle}>{props.headerText}</Text>
-      <Text>Why data is not there???</Text>
     </View>
   );
 };
